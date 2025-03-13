@@ -1,0 +1,47 @@
+/* Updated Welcome.css with forced white font color and adjusted positioning */
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* Align content towards the bottom */
+  height: 100vh;
+  text-align: center;
+  background: url('../assets/background.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  position: relative;
+  padding-bottom: 80px; /* Moves everything slightly up */
+}
+
+/* Ensuring white font color for contrast */
+.welcome-message {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white !important; /* Force white text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: white !important; /* Force white text color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px; /* Moves tagline slightly up */
+}
+
+.get-started-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-bottom: 20px; /* Moves button slightly up */
+}
+
+.get-started-btn:hover {
+  background-color: #b71c1c;
+}
